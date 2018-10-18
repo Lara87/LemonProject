@@ -1,0 +1,277 @@
+body {
+	width: 1440px;
+	background-color: #eaeaea;
+	margin: 0;
+	padding: 0;
+	border: 1px solid black;
+}
+
+.container {
+	margin: 0;
+	padding: 0;
+  width: 100%;
+  max-width: 1440px; /*максимальная ширина может иметь другое значение*/
+  padding: 15px;
+  
+ }
+
+.container img {
+	margin-top: 254px;
+	margin-left: 533px;
+	
+}
+
+.menu {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 1120px;
+	height: 123px;
+	background-color: #f8f8f8;
+	margin: 119px 168px 86px 152px;
+
+}
+
+.logo_menu {
+
+	display: inline-block;
+	position: absolute;
+	left:94px;
+	top:43px;
+}
+
+.bananas h1{
+	font-family: 'PlayfairDisplay-Regular';
+	font-size: 24px;
+	color: #911026;
+	position: absolute;
+	border: 1px solid black;
+}
+
+.info_bananas p {
+	padding:0;
+	margin:0;
+	margin-top: 50px;  
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  color: black;
+  position: absolute;
+  width: 312px;
+  height: 90px;
+}
+
+}
+  
+
+.Photo {
+  background-image: url("Photo.png");
+  position: absolute;
+  left: 153px;
+  top: 731px;
+  width: 1128px;
+  height: 449px;
+  z-index: 7;
+}
+
+
+}
+
+.logo_menu {
+	width: 87px;
+	height: 36px;
+	padding: 0px;
+	margin-left: 93px;
+	margin-top: 43px;
+}
+
+.list ul {
+	display: inline-block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 485px;
+	white-space: nowrap;
+	left: 270px;
+	top:54px;
+	right:310px;
+
+}
+
+.list li {
+	display: inline;
+	white-space: nowrap;
+	text-decoration: none;
+	font-family: 'Josefin Sans Light', arial;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	padding-right:20px;
+}
+
+.search [type=search] {
+	/*
+	width: 162px;
+	height: 28px;
+	font-family: 'Josefin Sans Light', arial;
+*/
+display: inline-block;
+font-size: 12px;
+  font-family: "FontAwesome";
+  text-align:center;
+  color: rgb(193, 193, 193);
+  right:94px;
+  top:52px;
+  position: absolute;
+  width: 162px;
+  height:28px;
+  border: 1px solid #c2c2c2;
+
+}
+
+
+.search img {
+	display: inline-block;
+	position: absolute;
+	right: 225px;
+	top: 60px;
+}
+
+/*стиль для поисковой строки*/
+
+.input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+.input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+.input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+.input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+
+
+.input{
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 52.966 52.966' style='enable-background:new 0 0 52.966 52.966;' xml:space='preserve'%3E%3Cpath d='M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21 c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279 C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19 S32.459,40,21.983,40z'/%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E%0A");
+      background-repeat: no-repeat;
+      padding: 5px 10px 5px 35px;
+      background-size: 10%;
+  background-position: left;
+  transition:all .2s ease-in-out;
+}
+.input:focus{
+    background-size: 0%;
+  padding: 5px 35px 5px 10px;
+}
+
+/*<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="12px" height="12px">
+<text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="12px" x="0px" y="11.9640000000001px"><tspan font-size="12px" font-family="FontAwesome" fill="#C1C1C1">&#61442;</tspan></text>
+</svg>
+
+
+.Search_Icon {
+  font-size: 12px;
+  font-family: "FontAwesome";
+  color: rgb(193, 193, 193);
+  line-height: 1.2;
+  position: absolute;
+  left: 1045.044px;
+  top: 584.8px;
+  z-index: 29;
+}
+
+
+
+
+
+
+3
+
+ .container {
+    display: grid;
+   
+ }
+
+*/
+
+
+
+
+.bananas{
+	
+}
+
+	.Photo {
+  background-image: url("Photo.png");
+  position: absolute;
+  left: 153px;
+  top: 731px;
+  width: 1128px;
+  height: 449px;
+  z-index: 7;
+  margin-top: 84px;
+}
+.bananas img {
+	width: 252px;
+	height: 105px;
+}
+
+
+
+.three_food {
+  display: grid;
+	width: 1120px;
+  height: 373px;
+  margin-top: 1000px;
+  margin-left: 152px;
+	background-color: #f8f8f8;
+ grid-template-columns: 100px 100px 100px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: center;
+  position: absolute;
+  
+
+}
+.three_food ul {
+	text-decoration: none;
+	font-family: 'Josefin Sans Light', arial;
+	font-size: 16px;
+	border: 1px solid black;
+}
+
+.Rectangle_3_copy_4 {
+  background-color: rgb(142, 46, 46);
+  
+  left: 205px;
+  top: 1300px;
+  width: 313px;
+  height: 208px;
+  z-index: 62;
+}
+
+
+
+
+footer {
+	margin: 0;
+	padding: 0;
+	width: 1120px;
+	height: 180px;
+	margin-left: 149px;
+	margin-right: 168px;
+	margin-bottom: 0px;
+	margin-top: 2524px;
+	background-color: #2f2f2f;
+	
+}
+
+footer li {
+	display: inline;
+	text-decoration: none;
+	margin-left: 280px;
+	margin-bottom: -75px;
+	white-space: nowrap;
+}
